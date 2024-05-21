@@ -77,7 +77,7 @@
 
 # UPDATE & DELETE DATA FROM TABLE
 
-* How to disable safe mode to update and delete: https://youtu.be/gkTmTp_Swl8
+* How to disable safe mode to update and delete: [https://youtu.be/gkTmTp_Swl8](https://youtu.be/meKbBf7d_XU?si=Gqp2i7xr49o6NAZP)
 
 ![image](https://github.com/asyikin22/MySQL/assets/148519441/c98eecbb-216f-4284-9f5c-cd81c90bbab6)
 
