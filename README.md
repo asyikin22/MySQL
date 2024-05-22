@@ -119,8 +119,97 @@
 
 ![image](https://github.com/asyikin22/MySQL/assets/148519441/2b3812fd-aad0-42c2-88d9-53cd116640ad)
 
+# JOINS
 
+**WHAT IS IT?**:
+- It's a clause that combine rows from two or more tables based on a related column between them such as a foreign key
 
+![image](https://github.com/asyikin22/MySQL/assets/148519441/a337d71f-1061-423d-a86d-210720b81f9b)
+
+# FUNCTIONS
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/c911a0a5-a7a1-4e6c-a0bb-9abb7aa46807)
+
+**CONCATENATE FUNCTION**
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/27f1f58a-5d2b-4478-ad4d-d745338370be)
+
+# LOGICAL OPERATORS
+
+**WHAT IS IT?**:
+- It is used to check more than one condition
+- In this example, we are going to add job column and assign roles to our existing employees
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/aa8ee216-33ec-4392-8f8e-b0e58e1b9e3d)
+
+**TYPE OF OPERATORS**:
+- and
+- or
+- not
+- between
+- in
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/9c993d4a-f8a9-407c-bf7a-795a64fff36c)
+
+# WILD CARD
+
+**WHAT IS IT?**:
+- Wild card characters %
+- Underscore character represents one random letter
+- It is used to substitute one or more characters in a string
+- It's helpful if you need to find if a string starts or ends with some value
+- 'LIKE' , replacing '=' equal sign will search any pattern
+
+**% WILD CARD CHARACTER**:
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/40eb768f-e91d-4347-92d9-c6b0588c7eb5)
+
+**UNDERSCORE ( _ ) WILD CARD CHARACTER**:
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/73a35596-c31d-4122-b7bb-c219613d7d68)
+
+# ORDER BY
+
+**WHAT IS IT?**: It sorts the result of a query in either ascending or descending order
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/070048cc-2f99-4139-a4fb-dec0a9d80216)
+
+# LIMIT CLAUSE
+
+**WHAT IS IT?**:
+- It is used to limit the number of records
+- It's useful if you're working with a lot of data
+- It can be used to display a large data on pages
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/b3fd19d1-f4a2-4782-bd95-a355a739768a)
+
+# UNIONS
+
+**WHAT IS IT?**:
+- It combines the results of two or more SELECT statements
+- 'UNION' alone does not allow duplicate
+- 'UNION ALL' will display duplicates from tables
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/89ad3615-7412-49a3-8294-e2e960f13eee)
+
+# SELF JOIN
+
+**WHAT IS IT?**:
+- It joins another copy of a table to itself
+- It is used to compare rows of the same table
+- It helps to display a hierarchy of data
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/c4d9bc33-96e6-4f9c-a959-9ae505460f62)
+
+# VIEWS
+
+**WHAT IS IT?**:
+- It's a virtual table based on the result-set of an SQL statement
+- The fields in a view are fields from one or more real tables in the DB
+- They're not real tables but can be interacted with as if they were
+- The benefit of view is that we don’t have to repeat data in a real table
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/5823d055-0f1e-4a3c-a0a8-65b9689a44d3)
 
 
 
