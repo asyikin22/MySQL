@@ -212,6 +212,63 @@
 ![image](https://github.com/asyikin22/MySQL/assets/148519441/5823d055-0f1e-4a3c-a0a8-65b9689a44d3)
 
 
+# INDEXES
 
+**WHAT IS IT?**:
+- It's a B3 data structure
+- It is used to find values within a specific more quickly
+- MYSQL normally searches sequentially through a column
+- The longer the column, the more expensive the operation is
+- Update takes more time, SELECT takes less time.
 
+![image](https://github.com/asyikin22/MySQL/assets/148519441/a5a728e4-49ac-4d59-af4c-df0f1a491ea2)
 
+# SUBQUERY
+
+**WHAT IS IT?**:
+- It's a query within another LARGE  query
+- Query (subquery)
+- Whatever values returned from the subquery, we will use it within the larger picture - the OUTER QUERY
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/8650620a-6b17-4df5-8dd6-111c343af992)
+
+# GROUP BY 
+
+**WHAT IS IT?**:
+- It aggregates all rows by a specific column
+- It's often used with aggregate functions
+- SUM(), MAX(), MIN(), AVG(), COUNT().
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/dd801ed4-6050-491c-bb79-f33a5e39948d)
+
+# ROLLUP
+
+**WHAT IS IT?**:
+- It is an extension of the GROUP BY clause
+- It produces another row and shows the GRAND TOTAL (super-aggregate value)
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/af68a199-ef8b-4f31-aece-404e85556d96)
+
+# STORED PROCEDURE
+
+**WHAT IS IT?**:
+- It is prepared SQL code that you can save
+- It's great if there're a query that you write often
+- It reduces network traffic and increases performance
+- It is more secure as admin can grant permission to user to use a stored procedure.
+- HOWEVER it increases memory usage.
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/c14208e5-a157-405d-a1fb-f17e507794d8)
+
+# TRIGGERS
+
+**WHAT IS IT?**:
+- When an event happens, do something
+- INSERT, UPDATE, DELETE
+- It checks data, handles errors and audits tables.
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/568fb36c-eebb-4a48-9ec7-b6b42f4c7c38)
+
+**EXPENSES TABLE**
+
+![image](https://github.com/asyikin22/MySQL/assets/148519441/711d75a0-e824-4486-b9fe-84fa0f27a9c6)
